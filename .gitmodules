@@ -4,3 +4,6 @@
 [submodule "snake"]
 	path = snake
 	url = https://github.com/kmkilburg28/snake
+[submodule "WebGL"]
+	path = WebGL
+	url = https://github.com/kmkilburg28/WebGL
