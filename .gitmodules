@@ -10,3 +10,6 @@
 [submodule "KerasClone"]
 	path = KerasClone
 	url = https://github.com/kmkilburg28/KerasClone
+[submodule "IntonationLearner"]
+	path = IntonationLearner
+	url = git@github.com:kmkilburg28/IntonationLearner.git
