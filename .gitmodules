@@ -22,3 +22,6 @@
 [submodule "AudioProcessing"]
 	path = AudioProcessing
 	url = git@github.com:kmkilburg28/AudioProcessing.git
+[submodule "Checkers"]
+	path = Checkers
+	url = git@github.com:kmkilburg28/Checkers.git
