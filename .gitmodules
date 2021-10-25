@@ -13,3 +13,15 @@
 [submodule "IntonationLearner"]
 	path = IntonationLearner
 	url = https://github.com/kmkilburg28/IntonationLearner.git
+[submodule "AudioProcessing"]
+	path = AudioProcessing
+	url = https://github.com/kmkilburg28/AudioProcessing.git
+[submodule "BackgammonImageProcessing"]
+	path = BackgammonImageProcessing
+	url = https://github.com/kmkilburg28/BackgammonImageProcessing.git
+[submodule "PatternProcessing"]
+	path = PatternProcessing
+	url = https://github.com/kmkilburg28/PatternProcessing.git
+[submodule "Checkers"]
+	path = Checkers
+	url = https://github.com/kmkilburg28/Checkers.git
