@@ -25,3 +25,9 @@
 [submodule "Checkers"]
 	path = Checkers
 	url = https://github.com/kmkilburg28/Checkers.git
+[submodule "NBA_Predictions"]
+	path = NBA_Predictions
+	url = https://github.com/kmkilburg28/NBA_Predictions.git
+[submodule "MultiAgentSurvival"]
+	path = MultiAgentSurvival
+	url = https://github.com/kmkilburg28/MultiAgentSurvival.git
