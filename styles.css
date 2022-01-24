@@ -26,6 +26,7 @@
 }
 .projects-category h4 a:hover {
 	text-decoration: underline;
+	color: lightgray;
 }
 .projects-category p {
 	font-family: 'Times New Roman', Times, serif;
