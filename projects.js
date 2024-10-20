@@ -67,6 +67,12 @@ const PROJECTS = {
 			"name": "Web Development",
 			"projects": [
 				{
+					"name": "Shut the Box",
+					"description": "A side project of the popular Shut the Box game. In it, suggestions are provided to assist the user in selecting which numbers combinations are most likely to lead to winning the game. This program is written in RUST and compiled to web assembly.",
+					"graphic": "shut_the_box/ShutTheBoxPreview.png",
+					"link": "shut_the_box/"
+				},
+				{
 					"name": "WebGL Project",
 					"description": "A final project for Iowa State's Introduction to Computer Graphics course. It features the majority of the skills taught in the class using WebGL. Note that the texture designs and dragon model are not my work.",
 					"graphic": "graphics/webgl.mp4",

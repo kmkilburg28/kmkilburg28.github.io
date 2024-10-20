@@ -31,3 +31,6 @@
 [submodule "MultiAgentSurvival"]
 	path = MultiAgentSurvival
 	url = https://github.com/kmkilburg28/MultiAgentSurvival.git
+[submodule "shut_the_box"]
+	path = shut_the_box
+	url = https://github.com/kmkilburg28/shut_the_box.git
