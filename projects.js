@@ -139,7 +139,7 @@ for (let categoryInd = 0; categoryInd < PROJECTS.categories.length; ++categoryIn
 	projects_category.classList.add('projects-category');
 
 	let category_div = document.createElement('div');
-	category_div.classList.add('container', 'col-9');
+	category_div.classList.add('container', 'col-md-9');
 	projects_category.appendChild(category_div);
 
 	let title_div = document.createElement('div');
@@ -153,11 +153,13 @@ for (let categoryInd = 0; categoryInd < PROJECTS.categories.length; ++categoryIn
 	for (let projectInd = 0; projectInd < category.projects.length; ++projectInd) {
 		let project = category.projects[projectInd];
 		let project_div = document.createElement('div');
-		project_div.classList.add('row', 'justify-content-center', 'p-2');
+		project_div.classList.add('row', 'justify-content-center', 'p-2', 'd-flex',
+			'flex-row' + (projectInd % 2 == 0 ? '' : '-reverse')
+		);
 		category_div.appendChild(project_div);
 
 		let text_div = document.createElement('div');
-		text_div.classList.add('col-5');
+		text_div.classList.add('col-md-5');
 		let project_heading = document.createElement('h4');
 		let project_heading_html = project.name
 		if (project['link'])
@@ -169,7 +171,7 @@ for (let categoryInd = 0; categoryInd < PROJECTS.categories.length; ++categoryIn
 		text_div.appendChild(project_description);
 		
 		let graphic_div = document.createElement('div');
-		graphic_div.classList.add('col-7', 'text-center');
+		graphic_div.classList.add('col-md-7', 'text-center');
 		let project_display;
 		if (project.graphic.endsWith('.mp4')) {
 			project_display = document.createElement('video');
@@ -199,10 +201,8 @@ for (let categoryInd = 0; categoryInd < PROJECTS.categories.length; ++categoryIn
 		}
 		graphic_div.appendChild(project_display);
 
-		let divOrder = projectInd % 2 == 0 ? [graphic_div, text_div] : [text_div, graphic_div];
-		for (let i = 0; i < divOrder.length; ++i) {
-			project_div.appendChild(divOrder[i]);
-		}
+		project_div.appendChild(graphic_div);
+		project_div.appendChild(text_div);
 	}
 
 	PROJECTS_DIV.appendChild(projects_category);
